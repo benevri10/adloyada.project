@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto+Serif:opsz,wght@8..144,100&display=swap");
+
+$mainTitleFont: "Pattaya", sans-serif;
+$secondTitleFont: "Henny Penny";
+$paragraphFont: "Roboto Serif", serif;
+$purpleColor: #9453a6;
+$greenColor: #8cbf3f;
+$yellowColor: #f2cc0f;
+$whiteColor: #f2f2f2;
+$blackColor: #0d0d0d;
+
+
+.navbar-navbar-expand-lg-bg-light {
+  font-family: $secondTitleFont;
+}
+h1, p {
+    color: $purpleColor;
+}
+
+.img-fluid:hover {
+    transform: scale(2);
+    transition: all 2s linear;
+}
+
+.d-flex .justify-content-evenly{
+    margin-top: 20px;
+}
+.footer-index {
+    margin-top: 20px;
+  }
+  hr {
+    color: $purpleColor;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .custom-class {
+    display: none;
+  }
+ 
