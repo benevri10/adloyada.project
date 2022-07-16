@@ -68,4 +68,13 @@ hr {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    width: 450px;
+  }
+  iframe {
+    width: 450px;
+  }
 }/*# sourceMappingURL=about.css.map */

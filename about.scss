@@ -70,4 +70,13 @@ hr {
   color: white;
 }
 
+@media (max-width: 768px) {
+  .card-img-top {
+    width: 450px;
+
+  }
+  iframe {
+    width: 450px;
+  }
+}
 

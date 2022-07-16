@@ -75,4 +75,10 @@ hr {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .card-body, .card-title {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
